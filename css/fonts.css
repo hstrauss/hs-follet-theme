@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin,latin-ext,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic);
 @import url(http://fonts.googleapis.com/css?family=Neuton:400,200,300,400italic,700,800&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700,400italic,700italic&subset=latin,latin-ext,cyrillic-ext,greek-ext,greek,vietnamese,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,400italic,700,800&subset=latin,latin-ext);
 /**
  * This stylesheet will manage all font-related styles.
  *
@@ -57,12 +59,12 @@
 body {
   font-size: 15px;
   line-height: 28px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro','Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 blockquote {
-  font-family: 'Neuton', serif;
+  font-family: 'Source Serif Pro','Neuton', serif;
   font-size: 24px;
   line-height: 34px;
 }
@@ -74,11 +76,11 @@ blockquote cite {
    Header
    ========================================================================== */
 .site-branding h1, .site-branding h2 {
-  font-family: 'Neuton', serif;
+  font-family: 'Source Serif Pro','Neuton', serif;
 }
 .site-branding h1 {
   font-size: 56px;
-  font-weight: bold;
+  font-weight: bold; 
   line-height: 56px;
 }
 .site-branding h1 a:hover, .site-branding h1 a:focus, .site-branding h1 a:active {
@@ -86,10 +88,11 @@ blockquote cite {
 }
 .site-branding h2 {
   font-size: 38px;
+  opacity: 0.75;
 }
 
 .landing-page-header .page-title {
-  font-family: 'Neuton',serif;
+  font-family: 'Source Serif Pro','Neuton',serif;
   font-size: 62px;
   font-weight: bold;
   line-height: 62px;
@@ -102,7 +105,8 @@ blockquote cite {
    Content
    ========================================================================== */
 .page-header h1 {
-  font-family: 'Neuton', serif;
+  font-family: 'Source Serif Pro','Neuton', serif;
+  font-weight: bold;
 }
 
 #main article h1, #main article h2, #main article h3, #main article h4,
@@ -110,11 +114,11 @@ blockquote cite {
 #tinymce.wp-editor h2,
 #tinymce.wp-editor h3,
 #tinymce.wp-editor h4 {
-  font-family: 'Neuton', serif;
+  font-family: 'Source Serif Pro','Neuton', serif;
 }
 #main article header h1,
 #tinymce.wp-editor header h1 {
-  font-weight: bold;
+/*   font-weight: bold; */
   font-size: 46px;
 }
 #main article header h1 a:hover,
@@ -146,7 +150,7 @@ blockquote cite {
 }
 
 .carousel-caption {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro','Open Sans', sans-serif;
 }
 .carousel-caption h1 a,
 .carousel-caption h2 a,
@@ -170,7 +174,7 @@ blockquote cite {
    Comments
    ========================================================================== */
 #comments h1, #comments h2, #comments h3, #comments h4 {
-  font-family: 'Neuton', serif;
+  font-family: 'Source Serif Pro','Neuton', serif;
 }
 #comments .comments-title {
   font-size: 36px;
@@ -188,7 +192,7 @@ blockquote cite {
 }
 
 .comment-author {
-  font-family: 'Neuton', serif;
+  font-family: 'Source Serif Pro','Neuton', serif;
   font-size: 26px;
 }
 
@@ -200,11 +204,11 @@ blockquote cite {
    Gravatar profile (Jetpack)
    ========================================================================== */
 #secondary .widget-grofile.widget h4:not(.widget-title) {
-  font-family: 'Neuton', serif;
+  font-family: 'Source Serif Pro','Neuton', serif;
   font-size: 26px;
 }
 #footer .widget-grofile.widget h4:not(.widget-title) {
-  font-family: 'Neuton', serif;
+  font-family: 'Source Serif Pro','Neuton', serif;
   font-size: 26px;
 }
 
@@ -220,5 +224,5 @@ blockquote cite {
    Support for Sharing (via Jetpack)
    ========================================================================== */
 #main .entry-content div.sharedaddy h3.sd-title, #main .entry-summary div.sharedaddy h3.sd-title {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro','Open Sans', sans-serif;
 }

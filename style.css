@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /**
- * Follet
+ * HS-Follet-Rendition
  *
  * A fully responsive, customizable, translation-ready and extendable theme. SEO
  * friendly via schema.org microdata, and compatible with all post formats. It
@@ -11,23 +11,22 @@
  * out of the box, and can be used either as a main theme, a parent theme for
  * your own child theme, or as a starter theme to create your own version.
  *
- * @package   Follet_Theme
- * @version   1.1.1
- * @author    Andrés Villarreal <andrezrv@gmail.com>
+ * @package   HS_Follet_Theme
+ * @version   1.apple.1
+ * @author    Heinrich Strauss [ original by Andrés Villarreal <andrezrv@gmail.com>; http://github.com/andrezrv/follet]
  * @license   GNU General Public License
- * @link      http://github.com/andrezrv/follet
- * @copyright 2014 Andrés Villarreal
+ * @link      http://github.com/hstrauss/hs-follet-theme
  *
  * @wordpress-theme
- * Theme Name: Follet
- * Theme URI: http://folletdemo.andrezrv.com
+ * Theme Name: HS-Follet-Rendition
+ * Theme URI: http://hstrauss.co.za/blog
  * Author: Andr&eacute;s Villarreal
  * Author URI: http://www.andrezrv.com
  * Description: A fully responsive, customizable, translation-ready and extendable theme. SEO friendly via schema.org microdata, and compatible with all post formats. It features intelligent widget areas, which won't show if no widgets are attached to them. Customizable via WordPress Customizer and a lot of easy-to-use options under the hood. Clean and lean PHP, HTML, CSS and JS code, written by WordPress Coding Standards. Works impressively well right out of the box, and can be used either as a main theme, a parent theme for your own child theme, or as a starter theme to create your own version.
- * Version: 1.1.1
- * License: GNU General Public License
+ * Version: 1.apple.1
+ * License: GNU General Public License v2
  * License URI: license.txt
- * Text Domain: follet_theme
+ * Text Domain: hs_follet_theme
  * Domain Path: /languages/
  * Tags: blue, red, white, custom-colors, custom-background, custom-header, custom-menu, editor-style, featured-images, full-width-template, right-sidebar, light, photoblogging, responsive-layout, sticky-post, threaded-comments, translation-ready, two-columns, one-column
  */
@@ -953,6 +952,11 @@ embed[src*="v.wordpress.com"] {
     padding: 15px 0 15px 15px;
   }
 }
+
+div#credits {
+display: none !important;
+}
+
 @media screen and (max-width: 380px) {
   .entry-thumbnail.portrait {
     float: none;
